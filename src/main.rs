@@ -11,6 +11,7 @@ fn get_name() -> String {
     return name;
 }
 
+// function print "Hello, name"
 fn hello_user(name: String) {
     println!("Hello, {}!", name.trim());
 }
@@ -18,7 +19,7 @@ fn hello_user(name: String) {
 // main function
 fn main() {
     println!("Hello, world!");
-    println!("Hello, world, again!");
+    println!("Hello, world, again!"); 
 
     let name: String = get_name();
 

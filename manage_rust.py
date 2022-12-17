@@ -3,7 +3,7 @@ import os
 RUST_PACKAGE = 'hello_world'
 
 # creating new tree
-os.system(f"cargo new {RUST_PACKAGE}")
+# os.system(f"cargo new {RUST_PACKAGE}")
 
 # moving
-os.system(f"cargo run --manifest-path ./hello_world/Cargo.toml")
+os.system(f"cargo run")
